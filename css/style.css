@@ -1,3 +1,41 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  background-color: grey;
+
+}
+
+header nav {
+  width: 960px;
+  margin: .5rem auto;
+}
+
+main {
+  /* background-color: seagreen; */
+  width: 960px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main img {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: grey;
+  height: 75px;
+}
+
+article {
+  width: 450px;
+}
+
+article section {
+  height: 370px;
+  overflow: scroll;
+}
