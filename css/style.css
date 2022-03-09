@@ -4,12 +4,40 @@
 
 header {
   background-color: grey;
+  height: 100px;
+}
 
+header img {
+  float: left;
+  padding-right: 30px;
 }
 
 header nav {
   width: 960px;
-  margin: .5rem auto;
+  margin: auto;
+  padding: 15px;
+  padding-left: 0;
+
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  overflow: hidden;
+}
+header li {
+  text-emphasis: none;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
 }
 
 main {
@@ -26,16 +54,38 @@ main img {
   margin-bottom: 30px;
 }
 
-footer {
-  background-color: grey;
-  height: 75px;
-}
 
 article {
   width: 450px;
 }
 
 article section {
-  height: 370px;
+  height: 350px;
   overflow: scroll;
+}
+
+span button {
+  border: 3px solid grey;
+  border-radius: 3px;
+}
+
+span button:hover {
+  background-color: white;
+}
+button {
+  width: 200px;
+  height: 35px;
+  background-color: grey;
+  transition-duration: .350s;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+footer {
+  background-color: grey;
+  height: 100px;
 }
